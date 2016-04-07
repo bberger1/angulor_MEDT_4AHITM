@@ -1,11 +1,11 @@
 export class Hero {
   id: number;
   name: string;
-
-  getHeroesSlowly() {
-    return new Promise<Hero[]>(resolve =>
-      setTimeout(()=>resolve(HEROES), 2000) // 2 seconds
-    );
-  }
-
 }
+
+
+/*
+Copyright 2016 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/
